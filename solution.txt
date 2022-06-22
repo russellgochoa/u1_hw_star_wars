@@ -1,0 +1,251 @@
+  ~ history | tail -n 250
+   52  cd..
+   53  cd ..
+   54  mkdir unit4/lessons unit4/labs unit4/homework
+   55  ls
+   56  cd unit4
+   57  ls
+   58  cd ../projects
+   59  touch name.txt
+   60  ls
+   61  echo$PATH
+   62  echo "Hi, my name is Russell" >> name.txt
+   63  cat name.txt
+   64  ls
+   65  rm name.txt
+   66  ls
+   67  cd SEI-R-6-21/Unit-1
+   68  cd ../Unit1
+   69  mkdir test
+   70  cd test
+   71  ..
+   72  cd ../test
+   73  ..
+   74  cd test
+   75  Unit1
+   76  cd Unit1
+   77  cd ../Unit1
+   78  cd
+   79  Unit1
+   80  projects
+   81  ls
+   82  cd../projects
+   83  cd
+   84  ga_seir
+   85  cd unit1
+   86  cd test
+   87  git init
+   88  ls
+   89  ls -a
+   90  rm -rf .git
+   91  git init
+   92  mkdir folder1 folder2
+   93  ls
+   94  touch index.html script.js style.css
+   95  git add .
+   96  git status
+   97  touch index.js
+   98  git status
+   99  git add .
+  100  git status
+  101  git commit -m 'created initial files'
+  102  ..
+  103  cd unit1
+  104  cd lessons
+  105  cd
+  106  ga_seir
+  107  unit1
+  108  cd lessons
+  109  git clone https://github.com/russellgochoa/u1_lesson_VSCode
+  110  ls
+  111  git clone https://github.com/russellgochoa/u1_lesson_VSCode.git
+  112  git clone git@github.com:russellgochoa/u1_lesson_VSCode.git
+  113  rm -rf u1_lesson_VSCode
+  114  git clone git@github.com:russellgochoa/u1_lesson_VSCode.git
+  115  cd u
+  116  cd u1_lesson_VSCode
+  117  code .
+  118* npm i -g prettier
+  119* touch ~/.prettierrc
+  120* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  121  cd ga_seir
+  122  cd
+  123  ga_seir
+  124  unit1/hoomework
+  125  cd unit1/homework
+  126  git clone git@github.com:russellgochoa/u1_hw_star_wars.git
+  127  ls
+  128  cd u1_hw_star_wars
+  129  code .
+  130  mkdir star_wars
+  131  cd star wars
+  132  cd star wars/
+  133  mkdir empire rebellion
+  134  cd star_wars
+  135  rm -rf empire
+  136  rm -rf rebellion
+  137  ls
+  138  mkdir empire rebellion
+  139  ls
+  140  cd u1_hw_star_wars/
+  141  cd unit1_hw_star_wars
+  142  homework
+  143  cd homework
+  144  cd homework/
+  145  cd
+  146  u1_hw_star_wars
+  147  homework
+  148  cd homework
+  149  cd homework/
+  150  cd
+  151  unit1/homework
+  152  cd
+  153  ga_seir
+  154  homework
+  155  cd unit1/homework
+  156  ls
+  157  rm -rf empire
+  158  ls
+  159  u1_hw_star_wars
+  160  rm -rf empire
+  161  rm -rf rebellion
+  162  cd
+  163  empire
+  164  cd ..
+  165  cd
+  166  cd unit1/homework
+  167  ga_seir
+  168  homework
+  169  cd unit1/homework
+  170  cd u1_hw_star_wars
+  171  ls
+  172  cd star_wars
+  173  ls
+  174  cd empire
+  175  touch darth_vader.txt
+  176  ls
+  177  echo "...heavy breathing..." >> darth_vader.txt
+  178  cat darth.vader.txt
+  179  cat darth_vader.txt
+  180  touch emperor_palpatine.txt
+  181  mkdir death_star
+  182  ls
+  183  mv darth_vader.txt death_star
+  184  ls
+  185  cd star_wars/rebellion
+  186  cd ..
+  187  cd rebellion
+  188  cd ..
+  189  cd empire
+  190  cd star_wars
+  191  cd empire
+  192  git add . 
+  193  u
+  194  git commit -m "act1"
+  195  cd ..
+  196  cd rebellion
+  197  touch princess_leia.txt
+  198  ls
+  199  echo "Help me, Obi-Wan…" >> princess_leia.txt
+  200  ls
+  201  cat princess_leia.txt
+  202  touch obi_wan.txt
+  203  ls
+  204  touch luke_skywalker.txt
+  205  ls
+  206  mkdir millenium_falcon
+  207  ls
+  208  cd millenium_falcon
+  209  touch han_solo.txt chewbacca.txt
+  210  ls
+  211  cd rebellion
+  212  cd..
+  213  cd ..
+  214  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  215  ls
+  216  cd millenium_falcon
+  217  ls
+  218  mv millenium_falcon death_star
+  219  cd death_star
+  220  cd death_star/
+  221  cd empire
+  222  cd ..
+  223  cd death_star
+  224  cd star_wars
+  225  cd empire
+  226  cd death_star
+  227  ls
+  228  cd ..
+  229  cd rebellion
+  230  ls
+  231  cd millenium_falcon
+  232  cd rebellion
+  233  cd ..
+  234  mv millenium_falcon death_star
+  235  cd ..
+  236  cd empire
+  237  cd death_star
+  238  ls
+  239  u
+  240  cd ..
+  241  cd rebellion
+  242  mv death_star millenium_falcon
+  243  ls
+  244  mv millenium_falcon death_star/
+  245  cd ..
+  246  cd empire
+  247  cd death_star
+  248  ls
+  249  cd ..
+  250  cd rebellion
+  251  cd ..
+  252  cd rebellion
+  253  mv death_star millenium_falcon
+  254  ls
+  255  cd ..
+  256  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  257  ls
+  258  cd star_wars
+  259  cd empire
+  260  ls
+  261  cd death_star
+  262  ls
+  263  git add .
+  264  git commit -m "act2" 
+  265  cd
+  266  ga_seir
+  267  homework
+  268  cd unit1/homework
+  269  cd u1_hw_star_wars
+  270  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  271  cd star_wars
+  272  cd empire
+  273  cd death_star
+  274  ls
+  275  rm obi_wan
+  276  rm obi_wan.txt
+  277  ls
+  278  cd ..
+  279  mv star_wars/empire/death_star/han_solo.txt/princess_leia.txt/luke_skywalker.txt/chewbacca.txt star_wars/empire/death_star/millenium_falcon
+  280  cd star_wars
+  281  cd smpire
+  282  cd empire
+  283  cd death_star
+  284  mv han_solo.txt princess_leia.txt luke_skywalker.txt chewbacca.txt millenium_falcon
+  285  cd ..
+  286  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  287  cd empire
+  288  cd star_wars
+  289  cd empire
+  290  cd death_star
+  291  mv darth_vader.txt empire
+  292  mv empire darth_vader.txt
+  293  mv darth_vader.txt/empire
+  294  cd ..
+  295  mv empire/death_star/darth_vader.txt empire
+  296  cd empire
+  297  rm -rf death_star
+  298  ls
+  299  git add .
+  300  git commit -m "act3"" \ncd empre\ncd\nu\ngit commit -m "act3"\n"
+  301  cd
